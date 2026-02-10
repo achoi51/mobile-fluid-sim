@@ -28,8 +28,8 @@
 	let renderer: FluidRenderer;
 	let animationId: number;
 
-	let simHeight = 3.0;
-	let simWidth = 4.0;
+	let simHeight = 13.0;
+	let simWidth = 5.0;
 
 	const dt = 1.0 / 120.0;
 	const flipRatio = 0.95;
@@ -97,6 +97,7 @@
 		render();
 		animationId = requestAnimationFrame(update);
 	}
+
 
 	onMount(() => {
 		resizeCanvas();

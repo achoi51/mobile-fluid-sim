@@ -154,6 +154,7 @@ export class FluidRenderer {
 
         const posLoc = gl.getAttribLocation(this.pointShader, 'attrPosition');
         gl.enableVertexAttribArray(posLoc);
+
         const colorLoc = gl.getAttribLocation(this.pointShader, 'attrColor');
         gl.enableVertexAttribArray(colorLoc);
 
